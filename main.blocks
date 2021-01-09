@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="MRhiT!xP](nv^D:ZW]I3">mySprite</variable><variable type="KIND_SpriteKind" id="][o}Z)+nb?oAD7h4DIZ4">Player</variable><variable type="KIND_SpriteKind" id="za5n+PUphMA=d.T8A:1^">Projectile</variable><variable type="KIND_SpriteKind" id="TH=([^MGl{e|E6#ilG+7">Food</variable><variable type="KIND_SpriteKind" id="l8$oTmKO8nImXf[,hM44">Enemy</variable></variables><block type="pxt-on-start" id="/?zS((ac#KqiI]^c`L|g" x="0" y="0"><statement name="HANDLER"><block type="typescript_statement" id="mY_Oh48r4R{G+DPa^.VO" editable="false"><mutation xmlns="http://www.w3.org/1999/xhtml" line0="start.Startup()" numlines="1"></mutation><next><block type="typescript_statement" id="BkJ68Ej*4uBiJI*n*Gr9" editable="false"><mutation xmlns="http://www.w3.org/1999/xhtml" line0="start.testLv()" numlines="1"></mutation><next><block type="typescript_statement" id="G1KjdbFMSS+v8djk%NC!" editable="false"><mutation xmlns="http://www.w3.org/1999/xhtml" line0="levelPack.changeLv()" numlines="1"></mutation><next><block type="typescript_statement" id="X^H9NC$j(]xJ/?SXmv@e" editable="false"><mutation xmlns="http://www.w3.org/1999/xhtml" line0="tileActions.nextLv()" numlines="1"></mutation></block></next></block></next></block></next></block></statement></block><block type="keyonevent" id="]|PlY@L[,0gG,hl$[a5c" x="410" y="150"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="variables_set" id="4{.x_nFz4Qj9$fX,CoNO"><field name="VAR" id="MRhiT!xP](nv^D:ZW]I3">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="+q[o,XlO876,Or7/zsIm"><value name="img"><shadow type="screen_image_picker" id="Ftd{J%bRjP]FX$jw;A2U"><field name="img">img`
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="Q[C/(Mw^k)Z-E~z]}wq9"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="Sprite_blockCombine_change" id="H{Z^+Rp@4~]E*8w-dH(I"><field name="property">Sprite.vy@set</field><value name="mySprite"><block type="variables_get" id="P/RAVdt{#n%$XJ#Zr3,J"><field name="VAR" id="MRhiT!xP](nv^D:ZW]I3">mySprite</field></block></value><value name="value"><shadow type="math_number" id="k4p`zX`VS0]G$,@s4WZx"><field name="NUM">150</field></shadow></value></block></next></block></statement></block></xml>
