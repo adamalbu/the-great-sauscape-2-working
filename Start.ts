@@ -5,7 +5,7 @@ let Sausage : Sprite = null
 let level = 0
 let Testmode = false
 
-Testmode = true
+Testmode = false
 level = 3
 
 namespace start{
@@ -824,8 +824,6 @@ namespace start{
     }
     export function testLv(){
         if(level >= 3){
-            Sausage.ay = 350
-            controller.moveSprite(Sausage, 100, 0)
             physics.apply()
         }
     }
