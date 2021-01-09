@@ -6,10 +6,10 @@ namespace levelPack{
             tiles.setTilemap(tilemap`level_0`)
         } else if (level == 3){
             tiles.setTilemap(tilemap`level_1`)
-            physics.apply()
-        // } else if (level == 4){
-        //     tiles.setTilemap(tilemap`level_2`)
+        } else if (level == 4){
+            tiles.setTilemap(tilemap`level_2`)
         }
+        start.testLv()
         tileActions.placeWalls()
         tileActions.respawn()
     }
