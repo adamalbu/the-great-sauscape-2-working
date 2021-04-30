@@ -5,7 +5,7 @@ let Sausage : Sprite = null
 let level = 0
 let Testmode = false
 
-Testmode = false
+Testmode = true
 level = 3
 
 namespace start{

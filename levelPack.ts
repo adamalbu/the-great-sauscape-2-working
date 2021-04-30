@@ -8,6 +8,8 @@ namespace levelPack{
             tiles.setTilemap(tilemap`level_1`)
         } else if (level == 4){
             tiles.setTilemap(tilemap`level_2`)
+        } else if (level == 5){
+            tiles.setTilemap(tilemap`level1`)
         }
         start.testLv()
         tileActions.placeWalls()
